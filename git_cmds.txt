@@ -1,0 +1,26 @@
+1] git clone "site url"
+2] git status
+3] (git add .) or (git add "filename")
+4] git commit -m "Your commit message"
+5] git push origin "branch name"  (can add -u to set upstream)
+6] git init
+7] git remote add origin "site url" (connects to remote repo)
+8] git remote -v (list the connected remoted repos)
+
+
+# Branch
+1] git branch
+2] git checkout -b "new branch name"
+3] git checkout "branch name" (switch to diff branch)
+4] git diff "branch name to compare with the current branch"
+5] git pull origin "branch name" (fetch changes from remote repo to local)
+6] git branch -d "branch name" (delete branch)
+7] git merge "branch name to merge curr branch with"
+
+
+# Undo
+1] git reset "filename" (undo changes after doing git add. filename is optional)
+2] git reset HEAD~1 (undo git commit)
+3] git log (see commit logs)
+4] git reset "commit hash id" (unstage and go to that commit stage)
+5] git reset --hard "commit hash id" (completely remove changes and go to that commit id)
